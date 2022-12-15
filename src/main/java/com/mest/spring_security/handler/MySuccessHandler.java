@@ -20,6 +20,6 @@ public class MySuccessHandler implements AuthenticationSuccessHandler {
 
     @Override
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication) throws IOException, ServletException {
-        System.out.println("我的handler认证成功了");
+        System.out.println("我的handler认证成功了！");
     }
 }
